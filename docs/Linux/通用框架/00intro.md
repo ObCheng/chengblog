@@ -1,10 +1,10 @@
 ---
-id: embedded-linux-start
+id: 00intro
 title: 介绍
 sidebar_label: 介绍
 ---
 
-这里是我学习韦东山 Linux驱动入门实验班的笔记
+通用框架式只可以直接套用的驱动程序，根据具体硬件稍作修改即可。
 
 ---
 

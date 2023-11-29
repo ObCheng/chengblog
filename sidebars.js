@@ -23,12 +23,38 @@ module.exports = {
   },
   {
     type: 'category',
-    label: 'Linux驱动入门(1)',
+    label: 'Linux驱动入门(5)',
     items: [
-      "Linux/embedded-linux-start",
-      "Linux/01开发环境搭建"
+      'Linux/embedded-linux-start',
+      'Linux/01开发环境搭建',
+      {
+        type: 'category',
+        label: '通用驱动框架',
+        items: [
+          'Linux/通用框架/00intro',
+          'Linux/通用框架/01hello驱动程序',
+        ],
+      },
 
-    ]
+      {
+        type: 'category',
+        label: '驱动模板1最简单的通用框架模板',
+        items: [
+          'Linux/模板1/00intro',
+
+        ],
+      },
+
+      {
+        type: 'category',
+        label: '驱动模板2平台设备驱动模型与设备树',
+        items: [
+          'Linux/模板2/00intro',
+          'Linux/模板2/01平台总线驱动与设备树',
+        ],
+      },
+
+    ],
   },
   {
     type: 'category',

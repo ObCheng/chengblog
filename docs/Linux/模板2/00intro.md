@@ -1,10 +1,10 @@
 ---
-id: embedded-linux-start
+id: 00intro
 title: 介绍
 sidebar_label: 介绍
 ---
 
-这里是我学习韦东山 Linux驱动入门实验班的笔记
+驱动模板2.平台设备驱动模型与设备树
 
 ---
 
