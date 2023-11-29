@@ -53,6 +53,22 @@ module.exports = {
         ]
       },
       {
+        to: "docs/all-intro",
+        label: "学习路线",
+        position: "right",
+        items: [
+          {
+            label: "ARM单片机/RTOS入门",
+            to: "https://www.100ask.net/study/singlechip?name=3.%20ARM%E5%8D%95%E7%89%87%E6%9C%BA/RTOS%E5%85%A5%E9%97%A8(%E5%88%9D%E5%AD%A6%E8%80%85)",
+          },
+          {
+            label: "嵌入式Linux快速入门",
+            to: "https://www.100ask.net/study/linux?name=3.%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8(%E5%88%9D%E5%AD%A6%E8%80%85)",
+          },
+        ]
+      },
+      {
+        href: "https://obcheng.github.io/photogallery/dist/index.html",
         label: "照片墙",
         position: "right",
       },
@@ -60,14 +76,6 @@ module.exports = {
         label: "小工具",
         position: "right",
         items: [
-          {
-            label: "同比增减在线换算工具",
-            to: "https://tools.zhangqiang.hk.cn/",
-          },
-          {
-            label: "简易的rap参数转ts格式工具",
-            to: "https://jack-zhang-coming.github.io/rap-to-ts/",
-          },
           {
             label: "带有GPT-API的WeTab标签页",
             to: "https://www.wetab.link/zh/",
