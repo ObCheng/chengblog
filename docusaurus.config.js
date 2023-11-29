@@ -9,7 +9,7 @@ module.exports = {
   titleDelimiter: "-",
   url: "https://obviouslycheng.vercel.app",
   baseUrl: "/",
-  favicon: "@site/static/img/chenglogo.png", // 网站图标
+  favicon: "https://avatars.githubusercontent.com/u/100484238?v=4", // 网站图标
   organizationName: "ObCheng", // Usually your GitHub org/user name.
   projectName: "obviouslycheng.vercel.app", // Usually your repo name.
   themeConfig: {
@@ -29,8 +29,8 @@ module.exports = {
       title: "认真学习的小诚同学",
       logo: {
         alt: "认真学习的小诚同学",
-        src: "/static/img/chenglogo.png",
-        srcDark: "/static/img/chenglogo.png",
+        src: "https://avatars.githubusercontent.com/u/100484238?v=4",
+        srcDark: "https://avatars.githubusercontent.com/u/100484238?v=4",
       },
       items: [{
         type: "localeDropdown",
