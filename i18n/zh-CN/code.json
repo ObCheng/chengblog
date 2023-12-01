@@ -256,7 +256,7 @@
     "description": "Bilibili docs link label"
   },
   "homepage.hero.text": {
-    "message": "在这里，有{blogs}以及个人的想法和生活记录！",
+    "message": "在这里，有{blogs}、学习笔记以及个人的想法和生活记录！",
     "description": "hero text"
   },
   "hompage.hero.text.course": {
