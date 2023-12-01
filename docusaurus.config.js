@@ -7,11 +7,11 @@ module.exports = {
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
-  url: "https://obviouslycheng.vercel.app",
+  url: "https://obviouslycheng.online",
   baseUrl: "/",
   favicon: "https://avatars.githubusercontent.com/u/100484238?v=4", // 网站图标
   organizationName: "ObCheng", // Usually your GitHub org/user name.
-  projectName: "obviouslycheng.vercel.app", // Usually your repo name.
+  projectName: "obviouslycheng.online", // Usually your repo name.
   themeConfig: {
     // announcementBar: {
     //   id: "feature_release", // Any value that will identify this message.
