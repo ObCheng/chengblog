@@ -24,13 +24,12 @@ jobs:
       - name: 打包项目
         run: yarn run build
 
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with:
-          server: ftp://42.192.113.74/
-          username: ${{ secrets.ftp_user }}
-          password: ${{ secrets.ftp_pwd }}
-          local-dir: ./build/
-          server-dir: ./htdocs/
+      - name: 项目部署
+        uses: easingthemes/ssh-deploy@v3.0.1
         env:
-          CI: true
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.HOST }}
+          REMOTE_USER: ${{ secrets.USERNAME }}
+          REMOTE_POR: '22'
+          SOURCE: 'build/'
+          TARGET: '/wwwroot/blog'
