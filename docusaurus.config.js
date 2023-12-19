@@ -9,7 +9,7 @@ module.exports = {
   titleDelimiter: "-",
   url: "https://obviouslycheng.online",
   baseUrl: "/",
-  favicon: "https://avatars.githubusercontent.com/u/100484238?v=4", // 网站图标
+  favicon: "https://chengblog-1317157518.cos.ap-shanghai.myqcloud.com/blog/chenglogo.png", // 网站图标
   organizationName: "ObCheng", // Usually your GitHub org/user name.
   projectName: "obviouslycheng.online", // Usually your repo name.
   themeConfig: {
@@ -29,8 +29,8 @@ module.exports = {
       title: "认真学习的小诚同学",
       logo: {
         alt: "认真学习的小诚同学",
-        src: "https://avatars.githubusercontent.com/u/100484238?v=4",
-        srcDark: "https://avatars.githubusercontent.com/u/100484238?v=4",
+        src: "https://chengblog-1317157518.cos.ap-shanghai.myqcloud.com/blog/chenglogo.png",
+        srcDark: "https://chengblog-1317157518.cos.ap-shanghai.myqcloud.com/blog/chenglogo.png",
       },
       items: [{
         type: "localeDropdown",
@@ -47,25 +47,34 @@ module.exports = {
         position: "right",
         items: [
           {
-            label: "Linux驱动入门",
-            to: "docs/Linux/embedded-linux-start",
+            label: "Adobe-illustrator绘图",
+            to: "docs/Adobe-illustrator/Adobe-illustrator-intro",
           },
+          {
+            label: "Linux驱动入门",
+            to: "docs/Linux-drive/embedded-linux-start",
+          },
+          {
+            label: "Linux项目实战",
+            to: "docs/Linux-project-practice/embedded-linux-projectpractice-start",
+          },
+
         ]
       },
       {
-        to: "docs/all-intro",
-        label: "学习路线",
+        to: "docs/Learning_route",
+        label: "嵌入式学习路线",
         position: "right",
-        items: [
-          {
-            label: "ARM单片机/RTOS入门",
-            to: "https://www.100ask.net/study/singlechip?name=3.%20ARM%E5%8D%95%E7%89%87%E6%9C%BA/RTOS%E5%85%A5%E9%97%A8(%E5%88%9D%E5%AD%A6%E8%80%85)",
-          },
-          {
-            label: "嵌入式Linux快速入门",
-            to: "https://www.100ask.net/study/linux?name=3.%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8(%E5%88%9D%E5%AD%A6%E8%80%85)",
-          },
-        ]
+        // items: [
+        //   {
+        //     label: "ARM单片机/RTOS入门",
+        //     to: "https://www.100ask.net/study/singlechip?name=3.%20ARM%E5%8D%95%E7%89%87%E6%9C%BA/RTOS%E5%85%A5%E9%97%A8(%E5%88%9D%E5%AD%A6%E8%80%85)",
+        //   },
+        //   {
+        //     label: "嵌入式Linux快速入门",
+        //     to: "https://www.100ask.net/study/linux?name=3.%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8(%E5%88%9D%E5%AD%A6%E8%80%85)",
+        //   },
+        // ]
       },
       {
         href: "https://obcheng.github.io/photogallery/dist/index.html",
@@ -127,7 +136,7 @@ module.exports = {
         ],
       },
       {
-        title: "社交媒体",
+        title: "代码库",
         items: [{
           label: "GitHub",
           href: "https://github.com/ObCheng",
@@ -135,10 +144,6 @@ module.exports = {
         {
           label: "Gitee",
           href: "https://gitee.com/obcheng",
-        },
-        {
-          label: "Bilibili 哔哩哔哩",
-          href: "https://space.bilibili.com/305159954",
         },
         ],
       },
@@ -160,7 +165,7 @@ module.exports = {
       },
       ],
       copyright: `<p>Copyright © ${new Date().getFullYear()} 111峰华 (张旭乾) Built with Docusaurus.</p>
-      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备14007097号-3</a></p>
+      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">浙ICP备2023047611号-3</a></p>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
       <img alt="Creative Commons License" style="border-width:0" src="/img/creative-commons-license-icon.png" /></a>
       <br />本站所有内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-Hans" 
@@ -207,7 +212,7 @@ module.exports = {
           feedOptions: {
             type: "all",
             title: "峰华前端工程师1111",
-            copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+            copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">浙ICP备2023047611号-3</a></p>`,
           },
         },
         theme: {
@@ -237,7 +242,7 @@ module.exports = {
         feedOptions: {
           type: "all",
           title: "峰华前端工程师2222",
-          copyright: `Copyright © ${new Date().getFullYear()} 3333峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 3333峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">浙ICP备2023047611号-3</a></p>`,
         },
       },
     ],

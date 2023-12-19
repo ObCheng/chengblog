@@ -27,10 +27,12 @@ import { useTrail, animated } from "react-spring";
 import BilibiliIcon from "@site/static/icons/bilibili.svg";
 import CSDNIcon from "@site/static/icons/csdn.svg";
 import JueJinIcon from "@site/static/icons/juejinIcon.svg";
+import ZhiHuIcon from "@site/static/icons/zhihu.svg";
 import Button from "../../components/Button";
 
 import Translate, { translate } from "@docusaurus/Translate";
 import Head from "@docusaurus/Head";
+
 
 import HeroMain from "./img/hero_main.svg";
 import ListFilter from "./img/list.svg";
@@ -362,6 +364,10 @@ function SocialLinks({ animatedProps, ...props }) {
       <a href="https://blog.csdn.net/ObviouslyCheng?spm=1000.2115.3001.5343">
         <CSDNIcon />
       </a>
+      <a href="https://www.zhihu.com/people/a-cheng-77-8-12">
+        <ZhiHuIcon />
+      </a>
+
     </animated.div>
   );
 }
